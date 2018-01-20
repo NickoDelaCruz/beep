@@ -2,7 +2,7 @@
   if(num.includes(0)=== true) {
     return "BEEP BEEP!";
   }
-  else if (num.includes(3) === true) {
+  else if (num % 3 === 0) {
     return "BOOP";
   }
   else {
