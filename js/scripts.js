@@ -1,9 +1,9 @@
 function inputtedNumber(num) {
-if(num.includes(0)=== true) {
-  return "  BEEP BEEP! ";
+if (num % 3 == 0) {
+  return "Im Sorry Dave Can't Do That ";
 }
-else if (num % 3 === 0) {
-  return "  Im Sorry Dave Can't Do That  ";
+else if (num.includes(0)=== true) {
+  return "  BEEP ";
 }
 else if (num.includes(1)=== true) {
   return "  Boop  ";
